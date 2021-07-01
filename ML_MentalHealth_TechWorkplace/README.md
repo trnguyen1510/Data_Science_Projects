@@ -1,16 +1,12 @@
-# Project Name
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
+# Machine Learning Topic: Mental Health in Tech Workplace
+Other DSWG projects can be found at the [main GitHub repo](https://github.com/trnguyen1510/Data_Science_Projects).
 
-#### -- Project Status: [Active, On-Hold, Completed]
+Or can be found on my website: [NguyenProgramming](https://www.nguyentech.org/)
+
+#### -- Project Status: [Completed]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
-
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
+Our objective is to analyze the attitude of tech workers towards mental health and the main predictors of mental health illness in the U.S. tech workplace. We explore and analyze the dataset "Mental Health in Tech workplace survey 2014", with questions had questions pertaining to how mental health is perceived at tech workplaces by employees and their employers.
 
 ### Methods Used
 * Inferential Statistics
@@ -20,59 +16,59 @@ The purpose of this project is ________. (Describe the main goals of the project
 * etc.
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
+* Pandas, jupyter, sklearn, seaborn
 * etc. 
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+
+Mental health has always been the central topic around workplace culture and wellness conversations. In a study of "mental well-being at the workplace" in 2010, it is increasingly recognized that employees' mental health is a crucial determinant in their overall health. Poor mental health and stressors at the workplace can contribute to a range of physical illnesses. Mental health can also affect their personal and professional lives (Rajgopal). Furthermore, mental issues such as depression and anxiety have a significant economic impact; the estimated cost to the global economy is US$1 trillion per year in lost productivity (who.int).
+
+The dataset name is Mental Health in tech survey 2014.
+
+This dataset contains the following data (column names):
+* Timestamp
+* Age
+* Gender
+* Country
+* state: If you live in the United States, which state or territory do you live in?
+* self_employed: Are you self-employed?
+* family_history: Do you have a family history of mental illness?
+* treatment: Have you sought treatment for a mental health condition?
+* work_interfere: If you have a mental health condition, do you feel that it interferes with your work?
+* no_employees: How many employees does your company or organization have?
+* remote_work: Do you work remotely (outside of an office) at least 50% of the time?
+* tech_company: Is your employer primarily a tech company/organization?
+* benefits: Does your employer provide mental health benefits?
+* care_options: Do you know the options for mental health care your employer provides?
+* wellness_program: Has your employer ever discussed mental health as part of an employee wellness program?
+* seek_help: Does your employer provide resources to learn more about mental health issues and how to seek help?
+* anonymity: Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources?
+* leave: How easy is it for you to take medical leave for a mental health condition?
+* mentalhealthconsequence: Do you think that discussing a mental health issue with your employer would have negative consequences?
+* physhealthconsequence: Do you think that discussing a physical health issue with your employer would have negative consequences?
+* coworkers: Would you be willing to discuss a mental health issue with your coworkers?
+* supervisor: Would you be willing to discuss a mental health issue with your direct supervisor(s)?
+* mentalhealthinterview: Would you bring up a mental health issue with a potential employer in an interview?
+* physhealthinterview: Would you bring up a physical health issue with a potential employer in an interview?
+* mentalvsphysical: Do you feel that your employer takes mental health as seriously as physical health?
+* obs_consequence: Have you heard of or observed negative consequences for coworkers with mental health conditions in your workplace?
+* comments: Any additional notes or comments
 
 ## Needs of this project
 
-- frontend developers
 - data exploration/descriptive statistics
 - data processing/cleaning
-- statistical modeling
+- predictive modeling
 - writeup/reporting
-- etc. (be as specific as possible)
 
 ## Getting Started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
+2. Raw Data is being kept [here](https://www.kaggle.com/osmi/mental-health-in-tech-survey) within this repo.
+3. Full Jupyter notebook [here](https://github.com/trnguyen1510/Data_Science_Projects/blob/master/ML_MentalHealth_TechWorkplace/ml-mental-health-in-tech-workplace.ipynb)
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+* [Kaggle Code](https://www.kaggle.com/trnguyen1510/ml-mental-health-in-tech-workplace)
+* [Blog Post](https://www.nguyentech.org/post/machine-learning-and-data-analysis-topic-mental-health-in-tech-workplace)
 
-
-## Contributing DSWG Members
-
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
-
-#### Other Members:
-
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
-
-## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
