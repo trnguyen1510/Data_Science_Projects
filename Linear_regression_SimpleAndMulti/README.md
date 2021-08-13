@@ -47,21 +47,27 @@ Step 4: We will repeat the following steps to first check relationship between �
 
 Step 5: Constructing the training and testing sets for the 2 SLR.
 
-1. Put only the “mppwt” data in X
+## Result
 
-	`X = df['mppwt'].values.reshape(-1, 1)`
-  
-Make the y matrix for “Birthweight”.
+According to the pairplot, Some of the variables have linear relationships with the others. Some don't have any relationships.
 
-`y = df['Birthweight'].values`
+1. `headcircumference` has positively weak and linear relationship with `Birthweight`
+2. `length` has a positively relationship with `Birthweight`
+3. `mppwt` has a positively linear relationship with `mheight`
 
-Check to make sure your X and y matrix are good.
+After running the correlation as shown in the heatmap below: 
 
-2. import necessary libraries for slit test and train sets. Make the testing set 20%.
-3. Create and fit your Linear Regression models.
-4. Plot the linear regression line on training set and testing set. Use plt.plot function.
-5. Print the intercepts and the coefficients.
+![image](https://user-images.githubusercontent.com/44355005/129427240-c5a74891-3995-4bf1-95e5-e10d421a5185.png)
 
+- `headcirumference` has postive relationship with `length`, `Birthweight`, `mppwt`, and `height`. Besides, `headcirumference` has stronger postive relationship with `Birthweight` (0.736) and moderate relationship with `length` (0.565328)
+
+- `length` has a moderate positive relationship with `headcirumference`, strong positive relationship with `Birthweight` and weaker realtionships with `mppwt`and `mheight`
+
+- `Birthweight` has a strong postive relationship with `headcirumference` (0.736) and `length` (0.697). Besides, it has weaker postive relationships with `mppwt` and `mheight`
+
+- `mppwt` has strong and postive relationship with `mheight` (0.671) and weaker postive relationships with `headcirumference`,`length` and `Birthweight`
+
+- `mheight` has postive relationship with `mppwt` and weaker relationships with `headcirumference`,`length`,`Birthweight`
 
 
 
