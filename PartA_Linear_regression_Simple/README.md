@@ -69,5 +69,9 @@ After running the correlation as shown in the heatmap below:
 
 - `mheight` has postive relationship with `mppwt` and weaker relationships with `headcirumference`,`length`,`Birthweight`
 
+Then we configured the features and ran linear regression model.
 
+The result shows that mother pre-pregnancy ('mppwt') and Weight of baby ('Birthweight') have a positive linear relationship
 
+- Intercept value of Mother pre-pregnancy and Weight of baby is 2.074. Meaning that, the expected mean value of Weight of baby is 2.074 when Mother pre-pregnancy value equals to 0. However, this intercept has no intrinsic meaning since Mother pre-pregnancy weight never equals 0.
+- For every lbs increase in Mother pre-pregnancy weight, the Weight of baby will increase by 0.0425 lbs.
