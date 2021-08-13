@@ -43,11 +43,11 @@ Step 4: We will now develop two SLR Models to answer to the two research questio
 1.	Research question# 1, configure the attribute “mppwt” as predictor(independent) variable and “Birthweight” outcome (dependent) variable. 
 2.	Research question# 2, configure the attribute “mheight” as predictor(independent) variable and “Length” outcome (dependent) variable.
 
-Step 4: We will repeat the following steps to first check relationship between “mppwt” and “Birthweight” and later between “mheight” and “length” of the baby. 
+Step 5: We will repeat the following steps to first check relationship between “mppwt” and “Birthweight” and later between “mheight” and “length” of the baby. 
 
-Step 5: Constructing the training and testing sets for the 2 SLR.
+Step 6: Constructing the training and testing sets for the 2 SLR.
 
-## Result
+## Result Interpretation
 
 According to the pairplot, Some of the variables have linear relationships with the others. Some don't have any relationships.
 
